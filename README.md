@@ -1,5 +1,5 @@
 # DotNetCoreAuthIntro
-This solution is an intro project exploring how .NET Core 2.2 handles role and claim-based authentication with policies. It was scaffolded with the .NET Core 2.2 MVC web app with Individual authentication. There are two MVC web projects in the solution: one for the roles and one for the claims. Both point to the same local DB on the machine, so whatever users Claims creates will exist in the Roles demo.
+This solution is an intro project exploring how .NET Core 2.2 handles role and claim-based authentication with policies. It was scaffolded with the .NET Core 2.2 MVC web app with Individual authentication. There are two MVC web projects in the solution: one for the roles and one for the claims. Both point to the same local DB on the machine, so whatever users Claims creates will exist in the Roles demo and vice versa.
 
 Both projects have added password options in the Startup.cs as well as policy declarations. Program.cs seeds an admin user for both projects if it does not exist. Claims includes a DateStarted when it seeds the data.
 
